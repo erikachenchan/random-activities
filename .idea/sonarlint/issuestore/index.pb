@@ -22,3 +22,15 @@ d
 4src/main/java/RockPaperSci/RockPaperScissorGame.java,8\1\810f060c52f1562d6faf0b3dec86f0f851146ecd
 `
 0src/test/java/RockPaperSci/RockPaperSciTest.java,7\f\7fae41ed0df8b6b1890325e495fe7b3075abd31a
+Z
+*src/main/java/AmusementPark/Amusement.java,0\e\0e972ff728647145bf46a0ac6a46ec1ea7d7760c
+<
+build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
+U
+%src/main/java/AmusementPark/Main.java,5\3\53843a3731085055e6047f2f144096f83bbae67b
+V
+&src/test/java/Account/AccountTest.java,d\a\dabcc2a32c7a2c37d4bd0e113139ddc9652148f9
+Z
+*src/test/java/Account/MainAccountTest.java,8\c\8c2fe2edf60994b48f9499b0c975f560df746e3d
+W
+'src/main/java/AmusementPark/Person.java,9\a\9a6b5bad2108880772bf68a04a2b90e66979f574

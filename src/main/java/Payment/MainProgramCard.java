@@ -3,20 +3,31 @@ package Payment;
 public class MainProgramCard {
 
     public static void main(String[] args) {
-        PaymentCard mayCard = new PaymentCard(10);
+//        PaymentCard mayCard = new PaymentCard(10);
+//
+//        System.out.println("money " + mayCard.getBalance());
+//
+//        boolean wasSuccessful = mayCard.takeMoney(8);
+//        System.out.println("successfully took: " + wasSuccessful);
+//
+//        System.out.println("money " + mayCard.getBalance());
+//
+//        wasSuccessful = mayCard.takeMoney(4);
+//        System.out.println("successfully took: " + wasSuccessful);
+//
+//        System.out.println("money " + mayCard.getBalance());
 
-        System.out.println("money " + mayCard.getBalance());
+        PaymentTerminal natwest = new PaymentTerminal();
 
-        boolean wasSuccessful = mayCard.takeMoney(8);
-        System.out.println("successfully took: " + wasSuccessful);
+        double change = natwest.eatAffordably(10);
+        System.out.println("remaining change " + change);
 
-        System.out.println("money " + mayCard.getBalance());
+        change = natwest.eatAffordably(5);
+        System.out.println("remaining change " + change);
 
-        wasSuccessful = mayCard.takeMoney(4);
-        System.out.println("successfully took: " + wasSuccessful);
+        change = natwest.eatHeartily(4.3);
+        System.out.println("remaining change " + change);
 
-        System.out.println("money " + mayCard.getBalance());
-
-
+        System.out.println(natwest);
     }
 }
