@@ -13,6 +13,7 @@ dependencies {
     testImplementation platform('org.junit:junit-bom:5.9.1')
     testImplementation 'org.junit.jupiter:junit-jupiter'
     testImplementation 'junit:junit:4.13.1'
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.8.1'
 
     // supports JUnit 3 and 4 tests with the new Jupiter engine. Even more, we can mix them with the new version in the same project, say, in a migration scenario.
     testCompileOnly 'junit:junit:4.12'
