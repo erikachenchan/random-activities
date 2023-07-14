@@ -3,8 +3,8 @@ package Payment;
 public class MainProgramCard {
 
     public static void main(String[] args) {
+        // PART 1
 //        PaymentCard mayCard = new PaymentCard(10);
-//
 //        System.out.println("money " + mayCard.getBalance());
 //
 //        boolean wasSuccessful = mayCard.takeMoney(8);
@@ -17,17 +17,35 @@ public class MainProgramCard {
 //
 //        System.out.println("money " + mayCard.getBalance());
 
-        PaymentTerminal natwest = new PaymentTerminal();
+//        Part 2
+//        PaymentTerminal natwest = new PaymentTerminal();
+//
+//        double change = natwest.eatAffordably(10);
+//        System.out.println("remaining change " + change);
+//
+//        change = natwest.eatAffordably(5);
+//        System.out.println("remaining change " + change);
+//
+//        change = natwest.eatHeartily(4.3);
+//        System.out.println("remaining change " + change);
+//
+//        System.out.println(natwest);
 
-        double change = natwest.eatAffordably(10);
-        System.out.println("remaining change " + change);
+        // PART 3
+        PaymentTerminal barclaysCmd = new PaymentTerminal();
 
-        change = natwest.eatAffordably(5);
-        System.out.println("remaining change " + change);
+        double change = barclaysCmd.eatAffordably(10);
+        System.out.println("remaining change: " + change);
 
-        change = natwest.eatHeartily(4.3);
-        System.out.println("remaining change " + change);
+        PaymentCard annesCard = new PaymentCard(7);
 
-        System.out.println(natwest);
+        boolean wasSuccessful = barclaysCmd.eatHeartily(annesCard);
+        System.out.println("there was enough money: " + wasSuccessful);
+        wasSuccessful = barclaysCmd.eatHeartily(annesCard);
+        System.out.println("there was enough money: " + wasSuccessful);
+        wasSuccessful = barclaysCmd.eatAffordably(annesCard);
+        System.out.println("there was enough money: " + wasSuccessful);
+
+        System.out.println(barclaysCmd);
     }
 }

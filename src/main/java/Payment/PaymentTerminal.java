@@ -23,8 +23,8 @@ public class PaymentTerminal {
             return payment;
         }
 
-        this.money += payment;
-        affordableMeal++;
+        this.money += AFFORDABLE_PRICE;
+        this.affordableMeal++;
 
         double calculatePrice = payment - AFFORDABLE_PRICE;
         return calculatePrice;
@@ -39,7 +39,7 @@ public class PaymentTerminal {
         if (payment < HEARTY_PRICE) {
             return payment;
         }
-        this.money += payment;
+        this.money += HEARTY_PRICE;
         heartyMeals++;
 
         double calculate = payment - HEARTY_PRICE;
@@ -47,7 +47,33 @@ public class PaymentTerminal {
 
     }
 
+    public boolean eatAffordably(PaymentCard card) {
+        // an affordable meal costs 2.50 euros
+        // if the payment card has enough money, the balance of the card is decreased by the price,
+        // and the method returns true
+        // otherwise false is returned
+
+        if (!card.takeMoney(AFFORDABLE_PRICE)) {
+            return false;
+        }
+        this.affordableMeal++;
+        return true;
+    }
+
+    public boolean eatHeartily(PaymentCard card) {
+        // a hearty meal costs 4.30 euros
+        // if the payment card has enough money,
+        // the balance of the card is decreased by the price, and the method returns true
+        // otherwise false is returned
+
+        if (!card.takeMoney(HEARTY_PRICE)) {
+            return false;
+        }
+        this.heartyMeals++;
+        return true;
+    }
+
     public String toString() {
-        return "money: " + money + ", number of sold afforable meals: " + affordableMeal + ", number of sold hearty meals: " + heartyMeals;
+        return "money: " + money + ", number of sold affordable meals: " + affordableMeal + ", number of sold hearty meals: " + heartyMeals;
     }
 }
