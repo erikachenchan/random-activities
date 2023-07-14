@@ -12,9 +12,6 @@ public class PaymentCard {
         return balance;
     }
 
-    public void addMoney(double increase) {
-        this.balance = this.balance + increase;
-    }
 
     public boolean takeMoney(double amount) {
         // implement the method so that it only takes money from the card if
@@ -25,6 +22,10 @@ public class PaymentCard {
             return true;
         }
         return false;
+    }
+
+    public void addMoney(double increase) {
+        this.balance += increase;
     }
 
     public void setBalance(double balance) {

@@ -73,6 +73,15 @@ public class PaymentTerminal {
         return true;
     }
 
+    public void addMoneyToCard(PaymentCard card, double sum) {
+        if (sum < 0) {
+            return;
+        }
+        card.addMoney(sum);
+        // current money + sum
+        this.money += sum;
+    }
+
     public String toString() {
         return "money: " + money + ", number of sold affordable meals: " + affordableMeal + ", number of sold hearty meals: " + heartyMeals;
     }

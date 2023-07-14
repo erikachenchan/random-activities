@@ -32,20 +32,40 @@ public class MainProgramCard {
 //        System.out.println(natwest);
 
         // PART 3
-        PaymentTerminal barclaysCmd = new PaymentTerminal();
+//        PaymentTerminal barclaysCmd = new PaymentTerminal();
+//
+//        double change = barclaysCmd.eatAffordably(10);
+//        System.out.println("remaining change: " + change);
+//
+//        PaymentCard annesCard = new PaymentCard(7);
+//
+//        boolean wasSuccessful = barclaysCmd.eatHeartily(annesCard);
+//        System.out.println("there was enough money: " + wasSuccessful);
+//        wasSuccessful = barclaysCmd.eatHeartily(annesCard);
+//        System.out.println("there was enough money: " + wasSuccessful);
+//        wasSuccessful = barclaysCmd.eatAffordably(annesCard);
+//        System.out.println("there was enough money: " + wasSuccessful);
+//
+//        System.out.println(barclaysCmd);
 
-        double change = barclaysCmd.eatAffordably(10);
-        System.out.println("remaining change: " + change);
+        // PART 4
+        PaymentTerminal barclays = new PaymentTerminal();
+        System.out.println(barclays);
 
-        PaymentCard annesCard = new PaymentCard(7);
+        PaymentCard annesCard = new PaymentCard(2);
 
-        boolean wasSuccessful = barclaysCmd.eatHeartily(annesCard);
+        System.out.println("amount of money on the card is " + annesCard.getBalance() + " euros");
+
+        boolean wasSuccessful = barclays.eatHeartily(annesCard);
         System.out.println("there was enough money: " + wasSuccessful);
-        wasSuccessful = barclaysCmd.eatHeartily(annesCard);
-        System.out.println("there was enough money: " + wasSuccessful);
-        wasSuccessful = barclaysCmd.eatAffordably(annesCard);
+
+        barclays.addMoneyToCard(annesCard, 100);
+
+        wasSuccessful = barclays.eatHeartily(annesCard);
         System.out.println("there was enough money: " + wasSuccessful);
 
-        System.out.println(barclaysCmd);
+        System.out.println("amount of money on the card is " + annesCard.getBalance() + " euros");
+
+        System.out.println(barclays);
     }
 }
