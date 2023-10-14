@@ -34,3 +34,9 @@ V
 &src/test/java/Account/AccountTest.java,d\a\dabcc2a32c7a2c37d4bd0e113139ddc9652148f9
 Z
 *src/test/java/Account/MainAccountTest.java,8\c\8c2fe2edf60994b48f9499b0c975f560df746e3d
+Z
+*src/test/java/Payment/PaymentCardTest.java,a\f\afe9f4e7e02ba814792c74773881af37eb89cd14
+Z
+*src/main/java/Payment/MainProgramCard.java,1\5\15ccf00210a28d03d17ef14620d33e665c029e6e
+Z
+*src/main/java/Payment/PaymentTerminal.java,d\1\d14113f99539733b16d339f17e75a36b5ac0213d
