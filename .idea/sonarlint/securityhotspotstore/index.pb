@@ -40,3 +40,5 @@ Z
 *src/main/java/Payment/MainProgramCard.java,1\5\15ccf00210a28d03d17ef14620d33e665c029e6e
 Z
 *src/main/java/Payment/PaymentTerminal.java,d\1\d14113f99539733b16d339f17e75a36b5ac0213d
+V
+&src/main/java/Payment/PaymentCard.java,4\a\4a311864b0bf0e81016e8a5c14a44ec14d918c9f
