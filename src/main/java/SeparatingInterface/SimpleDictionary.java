@@ -16,4 +16,15 @@ public class SimpleDictionary {
     public void add(String word, String translation) {
         this.translation.put(word, translation);
     }
+
+    // test to check if every element are present
+    public void printHashMap() {
+        System.out.println(translation);
+
+    }
+
+    // test to check the numbers of element
+    public void sizeValue() {
+        System.out.println("Size : " + translation.size());
+    }
 }
