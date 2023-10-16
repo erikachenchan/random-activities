@@ -10,7 +10,7 @@ public class MainSimpleDictRunner {
 
         TextUI textUI = new TextUI(scanner, dictionary);
         textUI.start();
-        System.out.println(dictionary.translate("pike"));
+//        System.out.println(dictionary.translate("pike"));
 
         System.out.println("");
         System.out.println("Others:");
