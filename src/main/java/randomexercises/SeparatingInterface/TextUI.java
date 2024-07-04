@@ -1,4 +1,4 @@
-package SeparatingInterface;
+package randomexercises.SeparatingInterface;
 
 import java.util.Scanner;
 

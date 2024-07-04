@@ -1,4 +1,4 @@
-package RockPaperSci;
+package randomexercises.RockPaperSci;
 
 import java.util.Random;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package Payment;
+package randomexercises.Payment;
 
 public class MainProgramCard {
 

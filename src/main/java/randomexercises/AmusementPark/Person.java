@@ -1,4 +1,4 @@
-package AmusementPark;
+package randomexercises.AmusementPark;
 
 public class Person {
 
