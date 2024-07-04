@@ -1,4 +1,4 @@
-package moochfi.exercises;
+package moochfi.worksheet.hashmaps;
 
 import java.util.ArrayList;
 

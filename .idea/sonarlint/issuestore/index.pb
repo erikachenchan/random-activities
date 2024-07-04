@@ -140,3 +140,9 @@ j
 :src/test/java/randomexercises/Payment/PaymentCardTest.java,2\c\2c749be06474b6833410dc4d5d973248e0231cbc
 j
 :src/test/java/randomexercises/Account/MainAccountTest.java,1\f\1fba3e0ee51844837aca6dcc6351c5497b02da63
+\
+,src/main/java/moochfi/worksheet/Message.java,4\0\400a2488039340ae71e4bd09281b1bf4f704f27c
+e
+5src/main/java/moochfi/worksheet/hashmaps/Message.java,1\8\186e8c0f196d023c77352269560cb6887997b9c1
+b
+2src/main/java/moochfi/worksheet/hashmaps/Book.java,3\0\304343e1eb742a6730a661d66a571e773aca37cf
