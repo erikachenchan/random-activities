@@ -1,6 +1,4 @@
 
-R
-"src/main/java/Account/Account.java,5\2\52d0dc839d8da05c8f886ee7d8a14473fdd92803
 S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
 ]
@@ -16,30 +14,8 @@ S
 settings.gradle,0\5\05efc8b1657769a27696d478ded1e95f38737233
 X
 (gradle/wrapper/gradle-wrapper.properties,f\b\fbe448ebfc3eb2d4e308f6b8b043666f5b57235e
-V
-&src/main/java/Account/MainAccount.java,1\1\112bc9ba44c092be728dd2b9e1639c7acf8bf5d7
-d
-4src/main/java/RockPaperSci/RockPaperScissorGame.java,8\1\810f060c52f1562d6faf0b3dec86f0f851146ecd
-`
-0src/test/java/RockPaperSci/RockPaperSciTest.java,7\f\7fae41ed0df8b6b1890325e495fe7b3075abd31a
-Z
-*src/main/java/AmusementPark/Amusement.java,0\e\0e972ff728647145bf46a0ac6a46ec1ea7d7760c
-W
-'src/main/java/AmusementPark/Person.java,9\a\9a6b5bad2108880772bf68a04a2b90e66979f574
 <
 build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
-U
-%src/main/java/AmusementPark/Main.java,5\3\53843a3731085055e6047f2f144096f83bbae67b
-Z
-*src/test/java/Account/MainAccountTest.java,8\c\8c2fe2edf60994b48f9499b0c975f560df746e3d
-Z
-*src/test/java/Payment/PaymentCardTest.java,a\f\afe9f4e7e02ba814792c74773881af37eb89cd14
-Z
-*src/main/java/Payment/MainProgramCard.java,1\5\15ccf00210a28d03d17ef14620d33e665c029e6e
-Z
-*src/main/java/Payment/PaymentTerminal.java,d\1\d14113f99539733b16d339f17e75a36b5ac0213d
-V
-&src/main/java/Payment/PaymentCard.java,4\a\4a311864b0bf0e81016e8a5c14a44ec14d918c9f
 
 Q.idea/sonarlint/securityhotspotstore/5/2/52d0dc839d8da05c8f886ee7d8a14473fdd92803,8\f\8f074c92e830ebf6f082131776337773007bbc4f
 w
@@ -98,14 +74,6 @@ Q.idea/sonarlint/securityhotspotstore/2/a/2a45a911a8f1836b0b6c5b758962572012d8f8
 Q.idea/sonarlint/securityhotspotstore/a/f/afe9f4e7e02ba814792c74773881af37eb89cd14,3\5\3506e42747cc24cb9fddc594df08d5dc5e52c339
 
 Q.idea/sonarlint/securityhotspotstore/4/a/4a311864b0bf0e81016e8a5c14a44ec14d918c9f,3\f\3fb9cb30d663bbc4ba4817c8f67ad2ec63959268
-k
-;src/main/java/SeparatingInterface/MainSimpleDictRunner.java,7\5\7571afbd448e8f8e1bd7c2a63afd9c754a7d7c71
-g
-7src/main/java/SeparatingInterface/SimpleDictionary.java,d\8\d8c8f6c3b98943da4952d6adbcbe8032c217dbb2
-V
-&src/test/java/Account/AccountTest.java,d\a\dabcc2a32c7a2c37d4bd0e113139ddc9652148f9
-]
--src/main/java/SeparatingInterface/TextUI.java,0\f\0fd7b67e31abb3998a2c2044cf1b8105778794d6
 f
 6src/main/java/randomexercises/Account/MainAccount.java,a\4\a4412b733f3772c1ef1107123beacd28c8aaf377
 {
@@ -130,8 +98,6 @@ t
 Dsrc/main/java/randomexercises/RockPaperSci/RockPaperScissorGame.java,9\0\90b057b023e7efb41825afd2f68a117774e5a5b4
 j
 :src/main/java/randomexercises/Payment/PaymentTerminal.java,f\f\fffb59bdefacbeb3e36fd09f735a614274940d42
-\
-,src/main/java/moochfi/exercises/Message.java,0\2\0281175ce5a7c116d42feaabc9cedf053eb814bc
 p
 @src/test/java/randomexercises/RockPaperSci/RockPaperSciTest.java,c\1\c1952ba7b5ac54064ed9ab486810775948ee6138
 f
@@ -140,8 +106,6 @@ j
 :src/test/java/randomexercises/Payment/PaymentCardTest.java,2\c\2c749be06474b6833410dc4d5d973248e0231cbc
 j
 :src/test/java/randomexercises/Account/MainAccountTest.java,1\f\1fba3e0ee51844837aca6dcc6351c5497b02da63
-\
-,src/main/java/moochfi/worksheet/Message.java,4\0\400a2488039340ae71e4bd09281b1bf4f704f27c
 e
 5src/main/java/moochfi/worksheet/hashmaps/Message.java,1\8\186e8c0f196d023c77352269560cb6887997b9c1
 b
