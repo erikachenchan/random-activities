@@ -1,5 +1,6 @@
-package Payment;
+package randomexercises.Payment;
 
+import Payment.PaymentCard;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

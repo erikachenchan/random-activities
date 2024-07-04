@@ -1,4 +1,4 @@
-package RockPaperSci;
+package randomexercises.RockPaperSci;
 
 
 import org.junit.Test;

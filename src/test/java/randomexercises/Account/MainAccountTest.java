@@ -1,5 +1,6 @@
-package Account;
+package randomexercises.Account;
 
+import Account.MainAccount;
 import org.junit.jupiter.api.Test;
 
 class MainAccountTest {
