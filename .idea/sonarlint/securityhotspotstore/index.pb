@@ -90,3 +90,5 @@ q
 Asrc/main/java/moochfi/worksheet/hashmaps/tracker/TaskTracker.java,1\9\190a752b5edf8af99f26d6ef9eb9a081428c0527
 u
 Esrc/main/java/moochfi/worksheet/hashmaps/keysetex/KeySetExercise.java,0\5\050c75d207872e9cf0981d12dc66d2a48ef0218d
+x
+Hsrc/main/java/moochfi/exercises/dictmanytrans/DictionaryOfManyTrans.java,a\d\ada2fe0374409a463a85125c139e7960bae72f36
