@@ -23,7 +23,7 @@ public class StorageFacility {
         ArrayList item = this.storageFacility.get(storageUnit);
 
         // validation if items are null or empty
-        if (item == null) { // if item equal to null
+        if (item.isEmpty() || item == null) { // if item equal to null
             ArrayList<String> empty = new ArrayList<>(); // create arraylist for empty list
             return empty; // will return to arraylist
         } else {
