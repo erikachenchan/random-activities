@@ -1,0 +1,9 @@
+
+L
+java:S3740"/Provide the parametrized type for this generic.(ó˜Œ8›°å»‰2
+
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(å¶Õ­8œ°å»‰2
+
+java:S1488 "]Immediately return this expression instead of assigning it to the temporary variable "empty".(ğ€îûÿÿÿÿ8œ°å»‰2
+L	java:S1069"+Replace this use of System.out by a logger.(”«„¯ÿÿÿÿÿ8¨°å»‰2
+L	java:S106;"+Replace this use of System.out by a logger.(İ¶êÿÿÿÿÿ8©°å»‰2

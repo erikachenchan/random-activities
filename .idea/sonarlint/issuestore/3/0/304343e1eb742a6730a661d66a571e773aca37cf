@@ -1,0 +1,11 @@
+
+m
+java:S1206"PThis class overrides "hashCode()" and should therefore also override "equals()".(ğÜşŠ8±àŠ€ˆ2
+X	java:S125"<This block of commented-out lines of code should be removed.(İ ’ì8³àŠ€ˆ2
+X	java:S125"<This block of commented-out lines of code should be removed.(ÿÓõÚ8ø‹€ˆ2
+]	java:S125#"<This block of commented-out lines of code should be removed.(ªóªûÿÿÿÿ8ø‹€ˆ2
+L	java:S106/"+Replace this use of System.out by a logger.(Öñ†šÿÿÿÿÿ8¶àŠ€ˆ2
+G	java:S1060"+Replace this use of System.out by a logger.(‡ºß¯8¶àŠ€ˆ2
+G	java:S1061"+Replace this use of System.out by a logger.(•æŞ¿8·àŠ€ˆ2
+J
+java:S1068"(Remove this unused "desc" private field.(ïºğ¢ûÿÿÿÿ8·àŠ€ˆ2

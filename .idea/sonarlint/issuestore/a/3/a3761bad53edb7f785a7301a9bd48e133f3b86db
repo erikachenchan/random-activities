@@ -1,0 +1,17 @@
+
+Q
+java:S3740"/Provide the parametrized type for this generic.(Ä¨Ü¹üÿÿÿÿ8ƒæ¬ÇŒ2
+o
+java:S1192F"MDefine a constant instead of duplicating this literal "rollerblades" 4 times.(’Èå–ûÿÿÿÿ8ƒæ¬ÇŒ2
+Œ
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Ğl8„æ¬ÇŒ2
+
+java:S13192"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ÏÍ·8„æ¬ÇŒ2
+y
+java:S1488"]Immediately return this expression instead of assigning it to the temporary variable "empty".(Óë8„æ¬ÇŒ2
+;
+java:S1700	"Rename field "storageFacility"(©‰ÿÁ8„æ¬ÇŒ2
+U
+java:S2589"8Remove this expression which always evaluates to "false"(ÆúÛú8æ¬ÇŒ2
+L	java:S106N"+Replace this use of System.out by a logger.(û–Ëùÿÿÿÿ8˜æ¬ÇŒ2
+G	java:S106R"+Replace this use of System.out by a logger.(”¤„¬8˜æ¬ÇŒ2

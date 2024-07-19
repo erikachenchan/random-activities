@@ -44,11 +44,17 @@ public class StorageFacility {
         }
     }
 
+    /***
+     * This specifies that the method returns an ArrayList of String objects
+     * */
     public ArrayList<String> storageUnits() {
         // returns the names of the storage units as list e.g a14, g63
+        // This declares a new variable named storage which is an ArrayList that will hold String objects.
         ArrayList<String> storage = new ArrayList<>();
 
-        // loop
+        //  This is a for-each loop that iterates over each String element in the keySet() of the storageFacility map.
+        //  this.storageFacility: Refers to an instance variable of HashMap of the class that this method belongs to.
+        //  A method of the Map interface that returns a Set of the keys contained in the map
         for (String unit : this.storageFacility.keySet()) {
             storage.add(unit);
         }

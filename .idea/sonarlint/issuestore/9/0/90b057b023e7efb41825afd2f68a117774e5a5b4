@@ -1,0 +1,16 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(²–œº
+o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(×„èâ
+t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ä½¨—ÿÿÿÿÿ
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(Çµí‘
+E	java:S106"+Replace this use of System.out by a logger.(³ÊöÑùÿÿÿÿ
+E	java:S106""+Replace this use of System.out by a logger.(–‰À‘ûÿÿÿÿ
+E	java:S106$"+Replace this use of System.out by a logger.(ÖÞÅùÿÿÿÿÿ
+E	java:S106("+Replace this use of System.out by a logger.(Â“²˜ýÿÿÿÿ
+@	java:S106,"+Replace this use of System.out by a logger.(í‰‰¾
+@	java:S1062"+Replace this use of System.out by a logger.(í‰‰¾
+E	java:S1065"+Replace this use of System.out by a logger.(Â“²˜ýÿÿÿÿ
+@	java:S106;"+Replace this use of System.out by a logger.(í‰‰¾
+E	java:S106>"+Replace this use of System.out by a logger.(Â“²˜ýÿÿÿÿ
+@	java:S106B"+Replace this use of System.out by a logger.(”ê‹Ë

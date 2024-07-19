@@ -1,0 +1,14 @@
+
+Y
+java:S1854"7Remove this useless assignment to local variable "mms".(Ú“©ÿÿÿÿÿ8¥Òú‡2
+J
+java:S1481"(Remove this unused "mms" local variable.(Ú“©ÿÿÿÿÿ8¦Òú‡2
+L	java:S106"+Replace this use of System.out by a logger.(ÒÏ‡üÿÿÿÿ8§Òú‡2
+L	java:S106"+Replace this use of System.out by a logger.(ÁÆ·åûÿÿÿÿ8§Òú‡2
+L	java:S106"+Replace this use of System.out by a logger.(ÒÏ‡üÿÿÿÿ8¨Òú‡2
+L	java:S106"+Replace this use of System.out by a logger.(ÁÆ·åûÿÿÿÿ8¨Òú‡2
+G	java:S106!"+Replace this use of System.out by a logger.(¤úïÅ8¨Òú‡2
+G	java:S106$"+Replace this use of System.out by a logger.(İóÈã8¨Òú‡2
+G	java:S106'"+Replace this use of System.out by a logger.(Š™´˜8©Òú‡2
+E
+java:S1068"(Remove this unused "name" private field.(Ë¥¼8©Òú‡2
